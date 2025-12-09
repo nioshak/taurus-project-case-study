@@ -2,7 +2,7 @@
 
 > **Context:** This repository serves as a functional work sample for the **Technical Program Manager** application at **8090**.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/your-github-username/your-repo-name)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://8090-case-study.streamlit.app)
 
 ## 🎯 The Objective
 At **8090**, the goal is to dismantle the "Software Industrial Complex" by building efficient, purpose-built software factories.
