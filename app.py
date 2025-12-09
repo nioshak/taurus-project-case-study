@@ -60,7 +60,7 @@ if user_role == "Executive Summary":
     m1, m2, m3 = st.columns(3)
     m1.metric(label="Deployment Time", value="3 Days", delta="-40%")
     m2.metric(label="Code Reusability", value="85%", help="Core logic shared between comms & defense")
-    m3.metric(label="Compliance", value="FedRAMP Ready", help="Verified via automated security gates")
+    m3.metric(label="Compliance", value="FMN Ready", help="Verified via automated security gates")
 
 # --- SECTION 2: ARCHITECTURE (THE TECHNICAL FLEX) ---
 elif user_role == "Technical Architecture":
