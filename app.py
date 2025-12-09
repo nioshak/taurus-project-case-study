@@ -105,9 +105,9 @@ elif user_role == "Delivery Metrics":
     
     data = {
         "Metric": ["Release Frequency", "Security Incidents", "Onboarding Time", "Infra Costs"],
-        "Before Strategy": ["Monthly", "4/Quarter", "6 Weeks", "$55k/mo"],
-        "After Strategy": ["Weekly", "0/Quarter", "1 Week", "$32k/mo"],
-        "Improvement": ["4x Faster", "100% Reduction", "83% Faster", "42% Savings"]
+        "Before Strategy": ["Monthly", "4/Quarter", "6 Weeks", "$5k/mo"],
+        "After Strategy": ["Bi-Weekly", "0/Quarter", "1 Week", "$1k/mo"],
+        "Improvement": ["2x Faster", "100% Reduction", "83% Faster", "80% Savings"]
     }
     df = pd.DataFrame(data)
     st.dataframe(df, use_container_width=True)
@@ -116,4 +116,7 @@ elif user_role == "Delivery Metrics":
 
 # --- FOOTER ---
 st.divider()
-st.caption("Built with Streamlit • Deployed via GitHub Actions • Sanitized for Public Viewing")
+st.caption("Author: N.Kayhani • Built using Streamlit • Deployed via GitHub Actions • Sanitized for Public Viewing")
+
+
+
