@@ -112,7 +112,7 @@ elif user_role == "Delivery Metrics":
     df = pd.DataFrame(data)
     st.dataframe(df, use_container_width=True)
     
-    st.bar_chart({"Commercial Users": 450, "Defense Nodes": 120})
+    st.bar_chart({"Commercial Users": 85, "Defense Nodes": 14})
 
 # --- FOOTER ---
 st.divider()
